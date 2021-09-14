@@ -6,7 +6,7 @@ export class CustomElement extends Component {
     super();
     this.state = {};
     this.propertyBlacklist = ['children', 'tagName'];
-    this.attributeWhitelist = ['theme', 'style'];
+    this.attributeWhitelist = ['theme', 'style', 'colspan'];
   }
 
   render() {
